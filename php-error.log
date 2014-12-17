@@ -4422,3 +4422,14 @@ Stack trace:
 [04-Dec-2014 11:40:22 UTC] erro => 
 [04-Dec-2014 11:40:23 UTC] erro => 
 [04-Dec-2014 11:40:24 UTC] erro => 
+[17-Dec-2014 21:08:37 UTC] erro => 
+[17-Dec-2014 21:09:19 UTC] erro => 
+[17-Dec-2014 21:09:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'agenda.psnAgendaEnvio' doesn't exist' in /usr/local/www/data-dist/projetos/systemAgendaV1/class/clsDBConnection.class.php:29
+Stack trace:
+#0 /usr/local/www/data-dist/projetos/systemAgendaV1/class/clsDBConnection.class.php(29): PDOStatement->execute()
+#1 /usr/local/www/data-dist/projetos/systemAgendaV1/class/clsQueryStatement.class.php(35): DBConnection->runSelect(Object(PDOStatement))
+#2 /usr/local/www/data-dist/projetos/systemAgendaV1/actions/actEditar.php(4): QueryStatement->selectAllCard()
+#3 /usr/local/www/data-dist/projetos/systemAgendaV1/index.php(5): require_once('/usr/local/www/...')
+#4 {main}
+  thrown in /usr/local/www/data-dist/projetos/systemAgendaV1/class/clsDBConnection.class.php on line 29
+[17-Dec-2014 21:09:24 UTC] erro => 

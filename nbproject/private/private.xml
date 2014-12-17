@@ -1,58 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="25">
-        <file>
-            <url>class/clsQueryStatement.class.php</url>
-            <bookmark id="7">
-                <name/>
-                <line>28</line>
-                <key/>
-            </bookmark>
-        </file>
-        <file>
-            <url>actions/actAtualizar.php</url>
-            <bookmark id="12">
-                <name/>
-                <line>28</line>
-                <key/>
-            </bookmark>
-            <bookmark id="9">
-                <name/>
-                <line>28</line>
-                <key/>
-            </bookmark>
-            <bookmark id="25">
-                <name/>
-                <line>37</line>
-                <key/>
-            </bookmark>
-            <bookmark id="21">
-                <name/>
-                <line>39</line>
-                <key/>
-            </bookmark>
-            <bookmark id="22">
-                <name/>
-                <line>39</line>
-                <key/>
-            </bookmark>
-            <bookmark id="16">
-                <name/>
-                <line>40</line>
-                <key/>
-            </bookmark>
-            <bookmark id="14">
-                <name/>
-                <line>40</line>
-                <key/>
-            </bookmark>
-        </file>
-    </editor-bookmarks>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/dsantos/devel/personare/portal/projetos/actions/actAtualizar.php</file>
-            <file>file:/home/dsantos/devel/personare/portal/projetos/class/clsFormatacao.class.php</file>
-            <file>file:/home/dsantos/devel/personare/portal/projetos/class/clsQueryStatement.class.php</file>
+            <file>file:/home/dsantos/devel/personare/portal/systemAgendaV1/index.php</file>
         </group>
     </open-files>
 </project-private>
