@@ -1,0 +1,161 @@
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body {
+    font-family: verdana;
+}
+
+a {
+    color: #000;
+}
+a:hover {
+    color: #555;
+}
+
+.headerMenu {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.headerMenu li {
+    border-right: 1px solid black;
+    display: inline;
+    list-style: none outside none;
+    margin-left: 8px;
+}
+
+.headerMenu a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.formCadastro {
+    margin: 70px auto 0;
+    width: 500px;
+}
+
+
+.footerCenter {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.footerBoxCenter {
+    margin: 0 auto;
+    width: 100px;
+}
+
+.footerCenter {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+
+.formBoxMensagem {
+    height: 150px;
+}
+
+.formBox {
+    height: 70px;
+}
+
+textarea[name="txtMensagem"] {
+    height: 100px;
+    width: 480px;
+}
+
+.margenInput {
+    margin-right: 20px;
+}
+
+.float {
+    float: left;
+}
+
+.botaoEnviar {
+    text-align: center;
+}
+
+.errorMensage {
+    margin-top: 50px;
+}
+
+.errorMensage h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.home h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.edit {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.list table {
+    margin: 0 auto;
+}
+
+
+.list td {
+    padding: 6px 8px 2px;
+}
+
+.list td a {
+    color: #666;
+    text-decoration: none;
+}
+
+
+.editCenter {
+    height: 26px;
+    margin: 0 auto;
+    width: 1000px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.search, .pagination {
+    display: inline;
+    left: 0;
+}
+
+.editCenter form {
+    display: inline;
+}
+.message {
+    margin-top: 10px;
+    border: 1px solid;
+    color: #fff;
+    font-weight: bold;
+    height: 27px;
+    overflow: auto;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    z-index: 999999;
+}
+.messageSucessBackground{
+    background-image: url("../img/alerta_verde.png");
+}
+.messageFailedBackground{
+    background-image: url("../img/alerta_vermelho.png");
+}
+.erro{
+    color:red;
+}
